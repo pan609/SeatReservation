@@ -101,6 +101,6 @@
         android:textSize="20sp"
         android:background="@drawable/btnshape2"
         android:textColor="@color/colorWhite"
-        android:text="scan"/>
+        android:text="@string/Scan"/>
 
 </RelativeLayout>
