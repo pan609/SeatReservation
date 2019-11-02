@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ChooseActivity">
+
+    <TextView
+        android:id="@+id/showroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/seat1"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:background="@drawable/btnshape"
+            android:text="@string/Num1" />
+
+        <Button
+            android:id="@+id/seat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/seat1"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:background="@drawable/btnshape"
+            android:text="@string/Num2" />
+
+        <Button
+            android:id="@+id/seat3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/seat2"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:background="@drawable/btnshape"
+            android:text="@string/Num3" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/seat4"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:background="@drawable/btnshape"
+            android:text="@string/Num4" />
+
+        <Button
+            android:id="@+id/seat5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/seat4"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:background="@drawable/btnshape"
+            android:text="@string/Num5" />
+
+        <Button
+            android:id="@+id/seat6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/seat5"
+            android:background="@drawable/btnshape"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/Num6" />
+    </RelativeLayout>
+
+
+    <Button
+
+        android:id="@+id/submit"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/btnshape2"
+        android:text="@string/Reserve" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnshape"
+        android:textSize="18sp"
+        android:text="@string/Cancel" />
+
+    </LinearLayout>

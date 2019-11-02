@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MineFragment">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:text="@string/Number"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:text="@string/Name"/>
+    <TextView
+        android:id="@+id/cinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/name"
+        android:textSize="17sp"
+        android:text="@string/Seat_num"/>
+    <TextView
+        android:id="@+id/ctime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/cinfo"
+        android:textSize="17sp"
+        android:text="@string/Res_time"/>
+    <TextView
+        android:id="@+id/ctomorrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ctime"
+        android:textSize="17sp"
+        android:text="@string/Res_tomorrow"/>
+
+
+    <TextView
+        android:id="@+id/showid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/showname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:layout_below="@id/showid"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/showinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showname"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/showtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showinfo"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tomorrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/showtime"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tomorrow"
+        android:textSize="20sp"
+        android:background="@drawable/btnshape2"
+        android:textColor="@color/colorWhite"
+        android:text="scan"/>
+
+</RelativeLayout>

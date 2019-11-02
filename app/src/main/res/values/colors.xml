@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGrey">#DCDCDC</color>
+    <color name="font33">#f6600f</color>
+    <color name="colorOrange">#FF8800</color>
+    <color name="colorPink">#FF0088</color>
+    <color name="colorClear">#00000000</color>
+    <color name="colorIndiaRed">#CD5C5C</color>
+</resources>

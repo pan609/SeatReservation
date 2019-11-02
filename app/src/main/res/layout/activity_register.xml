@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/reg_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/PersonalInfo" />
+
+    <LinearLayout
+        android:id="@+id/reg_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_tip"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/Number" />
+        <EditText
+            android:id="@+id/regstu_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:theme="@style/MyEditText"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reg_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reg_id">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/Name" />
+        <EditText
+            android:id="@+id/regstu_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:theme="@style/MyEditText"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reg_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reg_name">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/Code" />
+
+        <EditText
+            android:id="@+id/regstu_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="@string/Require"
+            android:theme="@style/MyEditText"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/repet_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reg_code">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:maxLines="16"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/Code"
+            />
+
+        <EditText
+            android:id="@+id/repstu_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:maxLines="16"
+            android:hint="@string/ReCode"
+            android:theme="@style/MyEditText"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/repet_code"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:background="@color/colorClear"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/Signup" />
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".FrameActivity">
+
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="com.example.seat.HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"/>
+    <fragment
+        android:id="@+id/fragment_feedback"
+        android:name="com.example.seat.FeedbackFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"/>
+    <fragment
+        android:id="@+id/fragment_mine"
+        android:name="com.example.seat.MineFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"/>
+    <fragment
+        android:id="@+id/fragment_clause"
+        android:name="com.example.seat.ClauseFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"/>
+
+    <RadioGroup
+        android:id="@+id/bottomGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorClear"
+        android:layout_weight="0.5"
+        android:weightSum="4">
+        <RadioButton
+            android:id="@+id/radioFeedback"
+            style="@style/btn_style"
+            android:text="@string/feedback" />
+        <RadioButton
+            android:id="@+id/radioHome"
+            android:text="@string/home"
+            style="@style/btn_style"/>
+        <RadioButton
+            android:id="@+id/radioClause"
+            style="@style/btn_style"
+            android:text="@string/clause"/>
+       <RadioButton
+            android:id="@+id/radioMine"
+            style="@style/btn_style"
+            android:text="@string/mine" />
+    </RadioGroup>
+
+</LinearLayout>

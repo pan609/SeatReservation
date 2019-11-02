@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Seat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="clause">预约条款</string>
+    <string name="home">自习室预约</string>
+    <string name="mine">预约信息</string>
+    <string name="feedback">信息反馈</string>
+    <string name="Signin">登录</string>
+    <string name="Signup">注册</string>
+    <string name="Code">密 码: </string>
+    <string name="ReCode">再次输入以确认密码</string>
+    <string name="Number">学 号: </string>
+    <string name="Name">姓 名: </string>
+    <string name="PersonalInfo">请填写个人信息</string>
+    <string name="System">SWUFE自习室预约</string>
+    <string name="Require">输入6~16个字符</string>
+    <string name="Cancel">取消预约</string>
+    <string name="Reserve">确认预约</string>
+    <string name="Num1">1号</string>
+    <string name="Num2">2号</string>
+    <string name="Num3">3号</string>
+    <string name="Num4">4号</string>
+    <string name="Num5">5号</string>
+    <string name="Num6">6号</string>
+    <string name="Res_time">预约时间:</string>
+    <string name="Res_tomorrow">预约时段:</string>
+    <string name="Seat_num">座位号:</string>
+    <string name="Title">请输入标题</string>
+    <string name="Content">请输入内容</string>
+    <string name="Upload">上传图片</string>
+    <string name="Submit">提交反馈</string>
+    <string name="Phonenumber">02866668888</string>
+    <string name="Phone">联系电话：</string>
+    <string name="Scan">Scan</string>
+
+</resources>
