@@ -17,7 +17,7 @@
                 android:id="@+id/image1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/clause1"/>
+                android:background="@drawable/ccc"/>
             <ImageView
                 android:id="@+id/image2"
                 android:layout_width="match_parent"
@@ -29,7 +29,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/image2"
-                android:background="@drawable/clause3"/>
+                android:background="@drawable/ccc"/>
         </RelativeLayout>
 
      </ScrollView>

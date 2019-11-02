@@ -61,7 +61,7 @@ public class FrameActivity extends FragmentActivity {
                     case R.id.radioFeedback:
                         fragmentTransaction.show(mFragments[0]).commit();
                         Background();
-                        drawable_Feedback=getResources().getDrawable(R.drawable.closefile2);        //底部按钮设置图片
+                        drawable_Feedback=getResources().getDrawable(R.drawable.closefile);        //底部按钮设置图片
                         drawable_Feedback.setBounds(0,0,140,130);
                         rbtFeedback.setCompoundDrawables(null,drawable_Feedback,null,null);
                         break;
