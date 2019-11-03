@@ -68,7 +68,7 @@ public class FeedbackFragment extends Fragment {
         pub_button = (Button) getView().findViewById(R.id.public_button);
         phone=(TextView)getView().findViewById(R.id.phone);
 
-        pub_photo = (Button) getView().findViewById(R.id.public_photo);           //书上的choose_from_album
+        pub_photo = (Button) getView().findViewById(R.id.public_photo);
         drawable_photo = getResources().getDrawable(R.drawable.photo);  //设置按钮的形式
         drawable_photo.setBounds(0, 0, 250, 250);
         pub_photo.setCompoundDrawables(null, drawable_photo, null, null);
@@ -77,7 +77,7 @@ public class FeedbackFragment extends Fragment {
 
        pub_photo.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v) {      //引用的书上的choose_from_album功能，未实现
                 if (ContextCompat.checkSelfPermission(getActivity(), Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
                     ActivityCompat.requestPermissions(getActivity(), new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
                 } else {
@@ -122,7 +122,7 @@ public class FeedbackFragment extends Fragment {
         });
     }
 
-    public void callPhone(String phoneNum){    //textview一个属性设置为autoLink="phone"或者all，转化成超链接实现打电话功能
+    public void callPhone(String phoneNum){         //textview一个属性设置为autoLink="phone"或者all，转化成超链接实现打电话功能，网上找的功能
         Intent intent = new Intent(Intent.ACTION_CALL);
         Uri data = Uri.parse("tel:" + phoneNum);
         intent.setData(data);

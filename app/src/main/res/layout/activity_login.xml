@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="90dp"
+    android:padding="88dp"
     android:gravity="center"
     tools:context=".LoginActivity">
 
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="26sp"
+        android:textSize="25sp"
         android:layout_marginBottom="10dp"
         android:textColor="@color/colorPrimaryDark"
         android:text="@string/System" />

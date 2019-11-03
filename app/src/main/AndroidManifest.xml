@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.seat">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
 
@@ -31,6 +32,7 @@
         </activity>
         <activity android:name=".ChooseActivity" />
         <activity android:name=".FrameActivity">
+
         </activity>
     </application>
 
